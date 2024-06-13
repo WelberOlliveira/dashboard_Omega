@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 import os
 from contextlib import contextmanager
 
+
+
 load_dotenv()
 
 DATABASE = os.getenv("DATABASE")
