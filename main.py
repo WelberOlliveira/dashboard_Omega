@@ -1,7 +1,6 @@
 
 import streamlit as st
 import streamlit_authenticator as stauth
-from streamlit_navigation_bar import st_navbar
 from dependencies import add_registro, consulta, consulta_geral, cria_tabela
 from time import sleep
 import home

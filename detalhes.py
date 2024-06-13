@@ -1,6 +1,5 @@
 from pathlib import Path 
 import streamlit as st
-from streamlit_navigation_bar import st_navbar
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
