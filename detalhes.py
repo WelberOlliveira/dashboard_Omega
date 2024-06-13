@@ -7,7 +7,6 @@ import pandas as pd
 import time 
 import os
 import pages as pg
-import openpyxl
 import datetime as dt
 
 

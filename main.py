@@ -5,6 +5,7 @@ from dependencies import add_registro, consulta, consulta_geral, cria_tabela
 from time import sleep
 import home
 
+
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
@@ -35,7 +36,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 def main():
-    st.title("Dashboard Ômega Invest")
+    st.title("Dashboard - Ômega Invest")
 
     try:
         consulta_geral()
